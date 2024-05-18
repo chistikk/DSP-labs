@@ -17,3 +17,7 @@ P2 = np.arctan(np.imag(X2) / (np.real(X2)+1e-6));
 Что будет с фазовым спекторм, если убрать дополнение `+1e-6`:
 
 <p align="center" > <img src="./pics/phase_spectr_0div0.png"></p>
+
+Избавление от неопределенности типа 0/0:
+
+<p align="center" > <img src="./pics/ph_spectr_ok.png"></p>
